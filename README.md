@@ -10,7 +10,7 @@
 <?php
 // Форма отправки отзыва
 $APPLICATION->IncludeComponent(
-	'msageev:feedback.form',
+	'feedback:feedback.form',
 	'',
 	[
 		'IBLOCK_ID' => 1,
@@ -23,7 +23,7 @@ $APPLICATION->IncludeComponent(
 
 // Список отзывов
 $APPLICATION->IncludeComponent(
-	'msageev:feedback.list',
+	'feedback:feedback.list',
 	'',
 	[
 		'IBLOCK_ID' => 1,
